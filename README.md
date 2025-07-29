@@ -99,3 +99,60 @@ Algorithm:
 14.End the program.
 
 Conclusion: The program was successfully implemented to calculate the average of five subject marks and assign the appropriate grade. It demonstrates the use of arithmetic operations, conditional logic, and input-output handling in C++.
+
+
+PROGRAM 2
+Aim:
+To write a C++ program that takes the coordinates of a point (x, y) and determines whether the point lies in a specific quadrant, on the X-axis, Y-axis, or at the origin.
+
+Tools Used:
+Programiz 
+Visual Studio Code 
+Theory:
+In the Cartesian coordinate system, the location of a point is determined using two values: the x-coordinate (horizontal) and the y-coordinate (vertical). The position of a point can fall into one of the four quadrants, on the X or Y axis, or at the origin.
+
+1st Quadrant: x > 0, y > 0
+
+2nd Quadrant: x < 0, y > 0
+
+3rd Quadrant: x < 0, y < 0
+
+4th Quadrant: x > 0, y < 0
+
+X-axis: y = 0 and x ≠ 0
+
+Y-axis: x = 0 and y ≠ 0
+
+Origin: x = 0 and y = 0
+
+Algorithm:
+
+1.Start the program.
+
+2.Declare two integer variables for x and y coordinates.
+
+3.Take user input for x and y.
+
+4.Use if-else conditions to check the location:
+
+5.If both x and y are 0 → Origin
+
+6.If x > 0 and y > 0 → 1st Quadrant
+
+7.If x < 0 and y > 0 → 2nd Quadrant
+
+8.If x < 0 and y < 0 → 3rd Quadrant
+
+9.If x > 0 and y < 0 → 4th Quadrant
+
+10.If x = 0 and y ≠ 0 → Y-axis
+
+11.If y = 0 and x ≠ 0 → X-axis
+
+12.Display the result.
+
+13.End the program.
+
+Conclusion:
+The program was successfully executed to determine the location of a point in the 2D coordinate plane. It uses conditional logic to handle all possible positions of the point based on user input.
+
